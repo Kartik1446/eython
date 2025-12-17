@@ -93,13 +93,13 @@ st.markdown(
         gap: 6px;
     }
     .stTabs [data-baseweb="tab"] {
-        background-color: #141b34;
+        background-color: #cfcc9f;
         border-radius: 999px;
         padding: 6px 14px;
-        color: #c4cae5;
+        color: black; /* Unselected tab text color */
     }
     .stTabs [aria-selected="true"] {
-        background: linear-gradient(135deg, #4ca1ff, #b245fc) !important;
+        background: linear-gradient(135deg, rgba(207,204,159,0.9), rgba(255,255,255,0.6)) !important;
         color: white !important;
     }
     /* Sidebar */
@@ -120,13 +120,7 @@ st.markdown(
     [data-testid="stSidebar"] button {
         background-color: #d6d39f; /* Secondary color for buttons in sidebar */
     }
-    /* Pills on tablist */
-    .stTabs [data-baseweb="tab"] {
-        background-color: #cfcc9f; /* Updated pill background color in tablist */
-    }
-    .stTabs [data-baseweb="tab"] {
-        color: black; /* Text color in tablist pills */
-    }
+
     </style>
     """,
     unsafe_allow_html=True,

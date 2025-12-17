@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*/bin/activate
+*/Scripts/activate
+*/Scripts/activate.bat
+*/Scripts/activate.ps1
+*/Scripts/deactivate
+*/Scripts/python.exe
+*/Scripts/pip.exe
+*/Scripts/streamlit.exe
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.env
+.venv
+.project
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
